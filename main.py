@@ -26,7 +26,7 @@ import pandas as pd
 import keras
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "put our API KEY Here"
 
 
 
@@ -58,7 +58,7 @@ logging.basicConfig(
 #    (Classic DS code: função bem definida, recebe e retorna)
 # =========================
 
-PATH = "/content/drive/MyDrive/Colab Notebooks/GenAI/students.csv"
+PATH = "/content/drive/MyDrive/Colab Notebooks/.../students.csv"
 
 def load_student_data(path: str = PATH) -> Tuple[pd.DataFrame, pd.Series]:
     """
